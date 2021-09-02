@@ -1,0 +1,54 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+div {
+    height: 100%;
+    position: relative;
+    opacity: 1;
+    background-size: cover;
+    background-image: url(API.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+*{
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+  .searchbox input[type=text] {
+   
+    padding : 10px;
+    font-family: fantasy;
+    font-size: 10px;
+    width: 60%;
+    background: #f1f1f1;
+    margin-left: 10px;
+    padding-right: 3cm;
+ 
+  }
+  
+  .searchbox button {
+    
+    width: 3%;
+    padding: 10px;
+    background: #000203;
+    color: rgb(78, 62, 62);
+    font-size: 17px;
+    border-left: none;
+    cursor: pointer;
+    position: inline;
+ }
+  
+  .searchbox button::first-letter {
+    background: #0b7dda;
+  }
+  
+  .searchbox::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
